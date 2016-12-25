@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+
+    <!-- <script src="bower_components/angular/angular.js"></script>
+     <script src="bower_components/angular-animate/angular-animate.js"></script>
+     <script src="bower_components/angular-aria/angular-aria.js"></script>
+     <script src="bower_components/angular-route/angular-route.js"></script>
+     <script src="bower_components/angular-material/angular-material.js"></script>
+     <script src="bower_components/angular-messages/angular-messages.js"></script>-->
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.1.1/angular-material.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.4/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.4/angular-animate.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.4/angular-aria.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.1.1/angular-material.js"></script>
+    <script src="./demo.js"></script>
+
+</head>
+<body ng-app = "demoApp">
+<div ng-controller="DemoController">
+
+
+    <div>
+
+        <md-input-container class="md-block" >
+            <label>Employee Name</label>
+            <input ng-model="user.userName">
+        </md-input-container>
+        <md-input-container class="md-block" >
+            <label>Employee Age</label>
+            <input ng-model="user.userAge">
+        </md-input-container>
+
+        <md-input-container class="md-block" >
+            <label>Employee Id</label>
+            <input ng-model="user.userId">
+        </md-input-container>
+
+
+        <md-button> Add Employee </md-button>
+
+    </div>
+
+</div>
+</body>
+</html>
